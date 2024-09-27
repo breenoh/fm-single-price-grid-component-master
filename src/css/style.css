@@ -115,3 +115,64 @@ h4 {
     font-weight: 200;
     line-height: 22px;
 }
+
+@media (max-width: 375px) {
+
+    body{
+        margin: 0 50px;
+    }
+
+    .container {
+        max-width: 375px;
+    }
+
+    .bottom{
+        flex-direction: column;
+    }
+
+    .left {
+        border-bottom-left-radius: 0px;
+    }
+    
+    .right {
+        border-bottom-left-radius: 10px;
+    }
+
+    .top {
+        padding: 20px;
+    }
+    
+    h3 {
+        font-size: 14px;
+    }
+
+    h4 {
+        font-size: 18px;
+        margin: 30px 20px 10px;
+        color: #fff;
+    }
+    
+    .bottom p {
+        padding: 5px 40px;
+        color: #fff;
+    }
+    
+    .bottom p {
+        padding: 5px 20px;
+        color: #fff;
+    }
+
+    .btn-signup {
+        margin: 25px 20px 25px 20px;
+        padding: 15px;
+    }
+
+    .right p {
+        padding-bottom: 20px;
+    }
+
+    p {
+        line-height:25px;
+        font-size: 15px;
+    }
+}
