@@ -116,7 +116,7 @@ h4 {
     line-height: 22px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
     body{
         margin: 0 50px;
