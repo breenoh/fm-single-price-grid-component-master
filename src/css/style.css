@@ -14,13 +14,17 @@
 
 body {
     background-color: var(--light-gray);
+    font-family: "Karla", sans-serif;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    height: 100dvh;
-    margin: auto;
     max-width: 620px;
-    border-radius: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(185, 181, 181, 0.507);
 }
 
 .top {
@@ -29,7 +33,7 @@ body {
     justify-content: center;
     padding: 40px;
     background-color: #fff;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 h1 {
@@ -55,28 +59,30 @@ p {
     display: flex;
     flex-direction: column;
     background-color: #2BB3B1;
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 10px;
 }
 
 .right {
     flex: 1;
     background-color: var(--terceiro-azul);
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 10px;
 }
 
 h4 {
-    padding: 40px 40px 0px;
+    font-size: 18px;
+    margin: 30px 40px 10px;
     color: #fff;
 }
 
 .bottom p {
-    padding: 10px 40px;
-    color: #fff
+    padding: 5px 40px;
+    color: #fff;
 }
 
 .left span {
-    font-size: 16px;
-    color: gray;
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
 }
 
 .p-left {
@@ -84,12 +90,28 @@ h4 {
     font-weight: bold;
 }
 
+.p-size {
+    font-size: 15px;
+    font-weight: 300;
+}
+
 .btn-signup {
-    border-radius: 10px;
-    margin: 30px;
+    border-radius: 8px;
+    margin: 25px 45px 40px 40px;
     text-align: center;
-    padding: 15px 20px;
+    padding: 15px;
     background-color: var(--cor-bright-yellow);
     color: #fff;
     text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px rgba(39, 37, 37, 0.329);
+}
+
+.right p {
+    text-align: justify;
+    width: 260px;
+    word-wrap: break-word;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 22px;
 }
